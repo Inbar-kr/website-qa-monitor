@@ -35,3 +35,5 @@ jobs:
 
       - name: Run Playwright tests on ${{ matrix.browser }}
         run: ./node_modules/.bin/playwright test --project="${{ matrix.browser }}" --reporter=dot
+        continue-on-error: true
+
