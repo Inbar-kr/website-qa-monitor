@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        browser: [chromium, firefox, webkit]
+        browser: [ "Chromium Desktop", "Firefox Desktop", "Microsoft Edge", "Chromium Mobile (Pixel 5)", "Safari Mobile (iPhone 14 Pro Max)" ]
 
     steps:
       - name: Checkout repo
