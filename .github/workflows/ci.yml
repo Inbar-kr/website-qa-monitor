@@ -25,10 +25,13 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Fix permissions for Playwright CLI
+        run: chmod +x ./node_modules/.bin/playwright
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
+        run: ./node_modules/.bin/playwright install --with-deps
 
       - name: Run Playwright tests on ${{ matrix.browser }}
-        run: npx playwright test --project="${{ matrix.browser }}" --reporter=dot
+        run: ./node_modules/.bin/playwright test --project="${{ matrix.browser }}" --reporter=dot
