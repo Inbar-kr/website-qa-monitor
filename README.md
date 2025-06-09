@@ -1,4 +1,7 @@
-# website-qa-monitor
+# Website QA Monitor
+
+[![Playwright Tests CI](https://github.com/Inbar-kr/website-qa-monitor/actions/workflows/ci.yml/badge.svg)](https://github.com/Inbar-kr/website-qa-monitor/actions/workflows/ci.yml)
+
 
 ## Project Overview
 qa-monitor is an end-to-end automated testing suite built with Playwright designed to monitor the functionality, performance, and responsiveness of the Demoblaze e-commerce website. It runs cross-browser tests simulating real user interactions, validating UI elements, checking for console errors, and measuring page performance.
