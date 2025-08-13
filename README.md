@@ -54,4 +54,4 @@ Before you begin, ensure you have the following installed:
 ## Reporting
 - **HTML Reports:** Playwright automatically generates HTML reports saved in `results/html-report`
 
-##### Note: This project is a personal and educational portfolio project. It is not intended for redistribution or external use.
+###### Note: This project is a personal and educational portfolio project. It is not intended for redistribution or external use.
