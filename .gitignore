@@ -1,0 +1,4 @@
+# Ignore IDE and virtual environment folders
+node_modules/
+results/html-report/
+test-results/
