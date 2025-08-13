@@ -54,4 +54,10 @@ Before you begin, ensure you have the following installed:
 ## Reporting
 - **HTML Reports:** Playwright automatically generates HTML reports saved in `results/html-report`
 
+## Demo: Website QA Monitor Test Run
+The example below demonstrates running the automated Playwright test suite for the Demoblaze website.  
+It shows all executed tests, including passed, failed, and flaky cases, with detailed screenshots for each step.
+
+![Playwright Test Report](docs\playwright_test_report.gif)
+
 ###### Note: This project is a personal and educational portfolio project. It is not intended for redistribution or external use.
